@@ -5,7 +5,7 @@ function changeBackground(curr){
     if(curr > 3) {
         curr = 1;
     }
-    $(".background").css("background-image", "url(../assets/regisslide" + curr +".jpg)");
+    $(".background").css("background-image", "url(./assets/regisslide" + curr +".jpg)");
     setTimeout(function(){
       changeBackground(curr + 1);
     },5000);
